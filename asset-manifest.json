@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02a5ef93.css",
+    "main.js": "/static/js/main.23649d4d.js",
+    "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
+    "static/media/stone_ocean.PNG": "/static/media/stone_ocean.6ab606b7ba294f07eecc.PNG",
+    "static/media/notepad_icon.png": "/static/media/notepad_icon.5eca158fb7a590cdbb35.png",
+    "static/media/stripes_bg.PNG": "/static/media/stripes_bg.6e094cc99d732f268837.PNG",
+    "index.html": "/index.html",
+    "main.02a5ef93.css.map": "/static/css/main.02a5ef93.css.map",
+    "main.23649d4d.js.map": "/static/js/main.23649d4d.js.map",
+    "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02a5ef93.css",
+    "static/js/main.23649d4d.js"
+  ]
+}
