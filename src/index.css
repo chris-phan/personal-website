@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Makes the div span the whole page */
+html, body, #root, #root>div {
+	height: 100%;
 }
+
+.optionButton {
+	background-color: white;
+	border: 1px solid white;
+}
+
+.optionButton:hover {
+	background-color: #e5f3ff;
+	border: 1px solid #cce8ff;
+}
+
+.staticTreeLine, #animateDialog, #animateBird {
+	display: inline;
+	word-wrap: break-word;
+}
+
+/* #landingScreen {
+	width: 100%;
+    height: 100%;
+    background-image: url("./images/stone_ocean.PNG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
