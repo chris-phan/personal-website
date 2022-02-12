@@ -18,31 +18,31 @@ const NotepadNavBar = () => {
 				className="optionButton"
 				style={optionBtnStyle}
 			>
-				<u>F</u>ile
+				<u style={font}>F</u>ile
 			</button>
 			<button
 				className="optionButton"
 				style={optionBtnStyle}
 			>
-				<u>E</u>dit
+				<u style={font}>E</u>dit
 			</button>
 			<button
 				className="optionButton"
 				style={optionBtnStyle}
 			>
-				F<u>o</u>rmat
+				F<u style={font}>o</u>rmat
 			</button>
 			<button
 				className="optionButton"
 				style={optionBtnStyle}
 			>
-				<u>V</u>iew
+				<u style={font}>V</u>iew
 			</button>
 			<button
 				className="optionButton"
 				style={optionBtnStyle}
 			>
-				<u>H</u>elp
+				<u style={font}>H</u>elp
 			</button>
 		</div>
 	);
@@ -86,3 +86,7 @@ const optionBtnStyle = {
 	position: 'relative',
 	top: '2px',
 };
+
+const font = {
+	fontFamily: 'Calibri'
+}
