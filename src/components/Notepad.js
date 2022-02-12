@@ -1,6 +1,5 @@
 import NotepadNavBar from './NotepadNavBar';
 import NotepadBody from './NotepadBody';
-import Background from '../images/stone_ocean.PNG';
 
 const Notepad = () => {
 	return (
