@@ -102,7 +102,7 @@ const figureFrames = [
 function animateFigureDialog() {
 	
 	// Initial dialog
-	if (localStorage.getItem('watchedAnimation') === 'false') {
+	if (localStorage.getItem('watchedAnimation') === 'false' || localStorage.getItem('watchedAnimation') == null) {
 		var initDialog = new Typed('#animateDialog', {
 			strings: [
 				'^1500Oh!^1000 HEY!!^2000',
