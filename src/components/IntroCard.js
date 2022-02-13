@@ -1,5 +1,4 @@
 import Notepad from './Notepad'
-import Background from '../images/wizards_bg.PNG'
 
 const IntroCard = () => {
     return (
@@ -13,6 +12,4 @@ export default IntroCard;
 
 const divStyle = {
     height: '100%',
-    backgroundImage: 'url(' + Background + ')',
-    backgroundSize: 'cover'
 }

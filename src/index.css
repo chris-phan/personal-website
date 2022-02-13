@@ -9,9 +9,21 @@ html, body, #root, #root>div {
 	height: 100%;
 }
 
+code {
+	font-family: monospace, Consolas, Monaco, Andale Mono;
+	background-color: #e0e0e0;
+	color: crimson;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
+}
+
+i {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .optionButton {
-	background-color: white;
-	border: 1px solid white;
+	background-color: transparent;
+	border: 1px solid transparent;
 }
 
 .optionButton:hover {
@@ -22,6 +34,12 @@ html, body, #root, #root>div {
 .staticTreeLine, #animateDialog, #animateBird {
 	display: inline;
 	word-wrap: break-word;
+}
+
+@media screen and (max-width: 1023px) {
+	#landingScreen {
+		display: none;
+	}
 }
 
 /* #landingScreen {

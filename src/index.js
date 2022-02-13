@@ -236,12 +236,8 @@ async function figureNap() {
 
 }
 
-// Parallax scroll
-window.addEventListener('scroll', () => {
-	var value = window.scrollY;
-	document.querySelector('#notepad').style.top = value + 'px';
-})
-
+console.log(window.screen.height);
+console.log(window.screen.width);
 
 // Execution
 function main() {

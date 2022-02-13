@@ -1,6 +1,6 @@
 const NotepadBody = () => {
     return (
-        <div id="np-body">
+        <div id="np-body" style={divStyle}>
             <p style={textStyling}>                                  _ _ _</p>
             <p style={textStyling}>                               ^(- )- \---^-</p>
             <p style={textStyling}>                        ^--^-/              \-^-]-\--</p>
@@ -37,18 +37,26 @@ const NotepadBody = () => {
             <p style={textStyling} id="animateHead">                              \\         /       //</p>
             <p style={textStyling} id="animateBody">                              /  .                |O</p>
             <p style={textStyling} id="animateLegs">                             |-  -                \{"<"}\{">"}_//\</p>
-            <p style={textStyling}>^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^ ^^    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</p>
+            <p style={textStyling}>^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^ ^^    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</p>
         </div>
     )
 }
 
 export default NotepadBody;
 
+const divStyle = {
+    height: 'auto',
+    overflowY: 'auto',
+    overflowX: 'hidden'
+}
+
 const textStyling = {
-    marginLeft: '5px',
+    marginLeft: '1vwpx',
     marginTop: '0px',
-    fontSize: '16px',
-    fontFamily: 'Consolas',
+    fontSize: '1vw',
+    fontFamily: 'monospace, Consolas, Monaco, Andale Mono',
     fontWeight: 'bold',
     whiteSpace: 'pre',
+    overflowY: 'auto',
+    overflowX: 'hidden',
 }
